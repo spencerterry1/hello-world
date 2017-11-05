@@ -1,0 +1,213 @@
+
+
+
+* {
+  font-family: "Lato", sans-serif;
+  color: #676858;
+  font-weight: 300;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+* {
+
+  }
+
+@media only screen and (max-width:767px) {
+    .bikes {
+      width: 100%;
+      height: 100%;
+      padding-left: 20px;
+      padding-right: 20px;
+      text-align: center;
+    }
+
+    h1 {
+        padding-top: 15px;
+        padding-bottom: 0px;
+        border: 0px;
+        margin-right: 20px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        text-align: right;
+        font-size: 25px;
+        text-transform: uppercase;
+    }
+
+    h2 {
+        font-size: 12px;
+        font-weight: lighter;
+        text-align: right;
+        border: 0px;
+        margin-right: 20px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    h3 {
+        margin-left: 10px;
+        margin-bottom: -10px;
+        margin-top: 25px;
+        font-size: 17px;
+    }
+
+    h4 {
+      padding-top: 0px;
+      padding-bottom: 10px;
+      margin: 0px;
+      font-size: 70%;
+    }
+
+}
+
+@media only screen and (min-width:768px) {
+    .container {
+      max-width:760px;
+      text-align: center;
+      padding:auto;
+      margin:auto;
+      text-align: center;
+    }
+
+    h1 {
+        padding-top: 15px;
+        padding-bottom: 0px;
+        border: 0px;
+        margin-right: 20px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        text-align: right;
+        font-size: 40px;
+        text-transform: uppercase;
+    }
+
+    h2 {
+        font-size: 16px;
+        font-weight: lighter;
+        text-align: right;
+        border: 0px;
+        margin-right: 20px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    h3 {
+        margin-left: 10px;
+        margin-bottom: -5px;
+        margin-top: 25px;
+        font-size: 25px;
+    }
+
+    h4 {
+      padding-top: 0px;
+      padding-bottom: 10px;
+      margin: 0px;
+    }
+
+  }
+
+.bikes {
+  max-width: 720px;
+  max-height: 360px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+
+.row {
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#row {
+    margin-top: 10px;
+    border-top: 1px solid grey;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.col-1 {
+    width:8.33%;
+}
+
+.col-2 {
+    width:16.66%;
+}
+
+.col-3 {
+    width:25%;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+.col-4 {
+    width:33.33%;
+    text-align: center;
+}
+
+.col-5 {
+    width:41.66%;
+}
+
+.col-6 {
+    width:50%;
+}
+
+.col-7 {
+    width:58.33%;
+}
+
+.col-8 {
+    width:66.66%;
+}
+
+.col-9 {
+    width:75%;
+    float: right;
+}
+
+
+
+p {
+  font-size: 12px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin: 0px;
+}
+
+.logo {
+    margin-top: 5px;
+    width: 50%;
+}
+
+.bikes {
+    margin-top: 15px;
+}
+
+.mountain {
+    width:100%;
+    padding: 15px;
+}
+
+.roadbike {
+    width: 100%;
+    padding: 15px;
+}
+
+.vintage {
+    width: 100%;
+    padding: 15px;
+}
+
+.rowborder {
+    border: 1px solid red;
+}
